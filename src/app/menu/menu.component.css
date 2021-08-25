@@ -1,0 +1,14 @@
+.navebar-backcolor{
+    background: rgb(163,211,217);
+    background: linear-gradient(90deg, rgba(163,211,217,1) 0%, rgba(181,148,185,1) 35%, rgba(136,88,136,1) 100%);
+}
+.fs-16{
+    font-size: 16pt;
+}
+.pxl-7{
+    padding-left: 7px;
+}
+
+a{
+   cursor: pointer;
+}
