@@ -1,0 +1,30 @@
+#img-bg{
+    background-image: url(../../assets/imagens/ionia.png);
+
+    min-height: 695px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-color{
+    color: #d93b65;
+}
+.bg-color:hover{
+    background-color: #F2BBA7;
+    color: coral;
+
+    
+}
+.fundo{
+    width: 350px;
+
+    background: #73323e75;
+
+    border-radius: 20% 20%;
+
+    box-shadow: 1px 2px 10px #73323e, 3px 6px 20px #73323efa;
+}
+.pt-12{
+    padding-top: 120px;
+}

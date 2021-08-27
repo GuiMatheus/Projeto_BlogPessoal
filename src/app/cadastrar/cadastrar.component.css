@@ -1,0 +1,40 @@
+#img-bg{
+    background-image: url(../../assets/imagens/lol-universe-ionia.png);
+
+    min-height: 695px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btnc-color{
+    color: #261515;
+}
+.bgc-color:hover{
+    background-color: #594F4F;
+    color: #D74B4F;
+
+    
+}
+
+.btna-color{
+    color: #486CD9;
+}
+.bga-color:hover{
+    background-color: #A5E9FB;
+    color: #F7A488;
+
+    
+}
+.fundo{
+    width: 350px;
+
+    background: #463e5993;
+
+    border-radius: 20% 20%;
+
+    box-shadow: 1px 2px 10px #463E59, 3px 6px 20px #463E59;
+}
+.pt-12{
+    padding-top: 120px;
+}
