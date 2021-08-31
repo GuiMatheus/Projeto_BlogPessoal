@@ -1,6 +1,6 @@
 .navebar-backcolor{
-    background: rgb(163,211,217);
-    background: linear-gradient(90deg, rgba(163,211,217,1) 0%, rgba(181,148,185,1) 35%, rgba(136,88,136,1) 100%);
+    background: rgb(191,65,76);
+    background: linear-gradient(317deg, rgba(191,65,76,1) 0%, rgba(242,187,167,1) 35%, rgba(115,50,62,1) 100%);
 }
 .fs-16{
     font-size: 16pt;

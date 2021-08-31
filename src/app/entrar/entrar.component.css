@@ -28,3 +28,12 @@
 .pt-12{
     padding-top: 120px;
 }
+.trans {
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+.trans:hover {
+    background-color: #73323e;
+    color: #fff;
+}
