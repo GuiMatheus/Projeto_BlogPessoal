@@ -1,0 +1,42 @@
+.bgdient {
+    background: rgb(191, 65, 76);
+    background: linear-gradient(317deg, rgba(191, 65, 76, 1) 0%, rgba(242, 187, 167, 1) 35%, rgba(115, 50, 62, 1) 100%);
+}
+
+.fs-50 {
+    font-size: 54pt;
+}
+
+.fs-18 {
+    font-size: 18pt;
+}
+
+.mr-6 {
+    margin-right: 6px;
+}
+.bg-color:hover{
+    background-color: #693d2d;
+    color: rgb(97, 38, 38);
+
+    
+}
+
+.btnc-color{
+    color: #EB3C51;
+}
+.bgc-color:hover{
+    background-color: #594F4F;
+    color: #D74B4F;
+
+    
+}
+
+.btna-color{
+    color: #486CD9;
+}
+.bga-color:hover{
+    background-color: #A5E9FB;
+    color: #F7A488;
+
+    
+}
