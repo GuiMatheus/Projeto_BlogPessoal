@@ -15,12 +15,12 @@
 
             <div class="row justify-content-center mt-3 mb-5">
                 <div class="col-md-6">
-                    <button type="button" class="btn btn-color bg-color text-light" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
+                    <button type="button" class="btn bg-color text-white" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
                         Nova Postagem
                     </button>
 
-                    <a class="btn btn-outline-light" href="#postagens">Ver Postagens</a>
+                    <a class="btn btn-outline-light ml-2" href="#postagens">Ver Postagens</a>
                 </div>
 
             </div>
@@ -3926,37 +3926,41 @@
 
 
 
-
 <!-- Button trigger modal -->
 
+
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Nova Postagem</h5>
+                <h5 class="modal-title" id="staticBackdropLabel">Nova Postagem</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
 
-                <div class="form-group">
+                <div class="form-goup">
                     <label for="titulo">Titulo</label>
-                    <input type="text" class="form-control" id="titulo" placeholder="Digite o titulo">
+                    <input class="form-control" type="text" id="titulo" placeholder="Digite um Titulo">
                 </div>
 
-
-                <div class="form-group">
+                <div class="form-goup">
                     <label for="texto">Texto</label>
-                  <textarea class="form-control" name="texto" id="texto"  rows="3"></textarea>
+                    <textarea class="form-control" name="texto" id="texto" rows="3"></textarea>
                 </div>
 
-                <div class="form-group">
-                    <label for="texto">Escolha um Tema ou <a href="">Cadastre um Novo</a> </label>
-                  <select class="form-control" name="tema" id="tema">
-                    <option value="">Temas</option>
-                  </select>
-                 
+                <div class="form-goup">
+                    <label for="texto">Escolha um tema:</label>
+                    <select class="form-control" name="tema" id="tema"> 
+                        <option value="">Tema</option>
+                    </select>
+                   
                 </div>
+                <div><button type="button" class="btn btnC-color bgC-color" data-bs-dismiss="modal" [routerLink]="['/tema']" routerLinkActive="router-link-active" >Cadastre um novo tema</button>
+                </div>
+
+
 
             </div>
             <div class="modal-footer">

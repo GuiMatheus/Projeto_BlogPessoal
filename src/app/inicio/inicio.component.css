@@ -3,14 +3,6 @@
     background: linear-gradient(317deg, rgba(191, 65, 76, 1) 0%, rgba(242, 187, 167, 1) 35%, rgba(115, 50, 62, 1) 100%);
 }
 
-.fs-50 {
-    font-size: 54pt;
-}
-
-.fs-18 {
-    font-size: 18pt;
-}
-
 .mr-6 {
     margin-right: 6px;
 }
@@ -37,6 +29,16 @@
 .bga-color:hover{
     background-color: #A5E9FB;
     color: #F7A488;
+
+    
+}
+
+.btnC-color{
+    color: #35d8a7;
+}
+.bgC-color:hover{
+    background-color: #f34b75;
+    color: #ebbfc6;
 
     
 }

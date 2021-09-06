@@ -1,0 +1,13 @@
+.bgdient {
+    background: rgb(191, 65, 76);
+    background: linear-gradient(317deg, rgba(191, 65, 76, 1) 0%, rgba(242, 187, 167, 1) 35%, rgba(115, 50, 62, 1) 100%);
+}
+.btna-color{
+    color: #486CD9;
+}
+.bga-color:hover{
+    background-color: #A5E9FB;
+    color: #F7A488;
+
+    
+}
