@@ -11,3 +11,24 @@
 
     
 }
+.fs-16{
+    font-size: 16pt;
+}
+.btnE-color{
+    color: #4f02a8;
+}
+.bgE-color:hover{
+    background-color: #f4a5fb;
+    color: #3f0063;
+
+    
+}
+.btnO-color{
+    color: #7e0000;
+}
+.bgO-color:hover{
+    background-color: #b80303 ;
+    color: #39c02d;
+
+    
+}
